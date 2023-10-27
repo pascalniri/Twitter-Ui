@@ -1,0 +1,264 @@
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: rgb(210, 210, 210);
+}
+.taskbar{
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.taskbar a{
+    line-height: 40px;
+    font-size: 11px;
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+}
+.taskbar a:hover{
+    color: rgb(0, 127, 190);
+    transition: .6s;
+}
+
+.taskbar button{
+    background-color: rgb(0, 127, 190);
+    padding: 8px 70px 8px 70px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.taskbar button:hover{
+    background-color:rgb(203, 203, 203) ;
+    color: black;
+    transition: .8s;
+}   
+.all{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#middle{
+   
+    width: 650px;
+    border: 1px solid rgb(40, 43, 48);
+    border-top: none;
+    
+}
+.home{
+    font-weight:bolder ;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 10px;
+    
+}
+.navs{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(40, 43, 48);
+}
+.navs button{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    color:rgb(210, 210, 210);
+    margin-bottom: 10px;
+}
+.navs button:hover{
+    transition: .8s;
+    color: white;
+    font-weight:bold ;
+    padding-right: 10px;
+    border-bottom: 4px solid rgb(0, 127, 190);
+}
+
+.user{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.user i{
+    font-size: 40px;
+    color: rgb(107, 107, 107);
+}
+.user{
+   display: flex;
+}
+.user span{
+    margin-left: 10px;
+    margin-top: 15px;
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+}
+
+.icons{
+    padding-left: 45px;
+    margin-left: 30px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.profile{
+    border-bottom: 1px solid rgb(40, 43, 48);
+}
+.icons i{
+    color: rgb(0, 127, 190);
+    padding-left: 5px;
+    margin-top: 15px;
+    justify-content: space-between;
+    letter-spacing: 15px;
+}
+.icons i:hover{
+    color: rgb(203, 203, 203);
+    transition: .6s;
+}
+.icons button{
+    background-color: rgb(0, 127, 190);
+    margin-left: 200px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+.icons button:hover{
+    background-color:rgb(203, 203, 203) ;
+    color: black;
+    transition: .8s;
+}
+.scroll h1{
+    font-weight: 900;
+}
+.scroll {
+    line-height: 6px;
+    padding-top: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.scroll p{
+    font-size: 10px;
+    color: rgb(107, 107, 107);
+}
+.scroll a{
+    color: rgb(4, 144, 213) ;
+    font-weight: bold;
+    text-decoration: none;
+}
+.scroll button{
+    background-color: rgb(255, 255, 255);
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.scroll button:hover{
+    background-color: rgb(4, 144, 213) ;
+    transition: .5s;
+}
+.gotit{
+    border-bottom: 1px solid rgb(40, 43, 48);
+
+}
+
+
+#image{
+    border-radius: 360px;
+  
+}
+
+.image{
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    position: absolute;
+}
+.photodisc span{
+    font-weight: bold;
+    font-size: 10px;
+    padding-left: 90px;
+
+}
+.photodisc p{
+    font-size: 10px;
+    padding-left: 90px;
+}
+.photodisc img{
+    border-radius: 15px;
+}
+#image2{
+    padding-left: 90px;
+    width: 300px;
+    height: 200px;
+}
+
+/* right column editings */
+
+
+#right{
+    padding-right: 30px;
+}
+.searchbox{
+    margin-top: 20px;
+   
+}
+.searchbox input{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    background-color:  rgb(40, 43, 48);
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+}
+.searchbox i{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    margin-left: 15px;
+    color:rgb(106, 106, 106) ;
+}
+.trends h2{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.trendslist{
+   background-color:rgb(40, 43, 48) ;
+   height: 300px;
+   border-radius: 10px;
+}
+.trendslist p{
+    padding-left: 30px;
+    font-size: 10px;
+    color:rgb(106, 106, 106) ;
+}
+
+.trendslist a{
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;  
+}
+.right{
+    margin-left:40px;
+} 
+
+
+
+  
